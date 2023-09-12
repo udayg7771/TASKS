@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS TASK-1</title>
+    <style>
+        .table-style{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+        table,th,td{
+            border: 2px black solid; 
+            border-radius: 16px;   
+        }
+        table{
+            background-color: #96D4D4;
+            width: 70%;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+           justify-content: center;
+            
+        }
+        .box{
+            border: 2px #ace600 solid;
+            width:40px;
+            height: 20px;
+            margin: 7px;
+            padding:20px;   
+        }
+        .border1{
+            border-radius: 2px;
+        }
+        .border2{
+            border-radius: 5px;
+        }
+        .border3{
+            border-radius: 10px;
+        }
+        .border4{
+            border-radius: 6px;
+        }
+        .border5{
+            border-radius: 1px;
+        }
+        .border6{
+            border-radius: 10px;
+        }
+        .border7{
+            
+            border-radius: 50%;
+            width:40px
+        }
+        .border8{
+            border-radius: 5px;
+        }
+        .border9{
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="table-style">
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+        </table>
+    </div>
+
+ <br/>
+ <br/>
+ <br/>
+ <div class="row">
+    <div class="box border1"></div>
+    <div class="box border2"></div>
+    <div class="box border3"></div>
+ </div>
+   <div class="row">
+    <div class="box border4"></div>
+    <div class="box border5"></div>
+    <div class="box border6"></div>
+   </div>
+ <div class="row">
+    <div class="box border7"></div>
+    <div class="box border8"></div>
+    <div class="box border9"></div>
+ </div>
+
+</body>
+</html>
